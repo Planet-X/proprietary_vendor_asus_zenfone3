@@ -1124,6 +1124,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/etc/init.asus.power.onoff.sh:system/etc/init.asus.power.onoff.sh \
     vendor/asus/Z017/proprietary/etc/init.asus.ramdump.sh:system/etc/init.asus.ramdump.sh \
     vendor/asus/Z017/proprietary/etc/init.asus.set_time.sh:system/etc/init.asus.set_time.sh \
+    vendor/asus/Z017/proprietary/etc/init/init.qti.fm.rc:system/etc/init/init.qti.fm.rc \
     vendor/asus/Z017/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -1321,6 +1322,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/asus/Z017/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/asus/Z017/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/asus/Z017/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/asus/Z017/proprietary/vendor/bin/ftmdaemon:system/vendor/bin/ftmdaemon \
     vendor/asus/Z017/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/asus/Z017/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
@@ -1349,6 +1351,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.sh:system/vendor/bin/init.qcom.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.usb.sh:system/vendor/bin/init.qcom.usb.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.wifi.sh:system/vendor/bin/init.qcom.wifi.sh \
+    vendor/asus/Z017/proprietary/vendor/bin/init.qti.fm.sh:system/vendor/bin/init.qti.fm.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qti.ims.sh:system/vendor/bin/init.qti.ims.sh \
     vendor/asus/Z017/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/asus/Z017/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
