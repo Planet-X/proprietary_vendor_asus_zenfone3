@@ -1175,7 +1175,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
     vendor/asus/Z017/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/asus/Z017/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/asus/Z017/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/asus/Z017/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/Z017/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/Z017/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -1246,7 +1245,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/asus/Z017/proprietary/lib/wbc_hal.default.so:system/lib/wbc_hal.default.so \
     vendor/asus/Z017/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/asus/Z017/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/asus/Z017/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/Z017/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/Z017/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -1329,7 +1327,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/asus/Z017/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/Z017/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
-    vendor/asus/Z017/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/asus/Z017/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/asus/Z017/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/asus/Z017/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
@@ -1348,7 +1345,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.coex.sh:system/vendor/bin/init.qcom.coex.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.early_boot.sh:system/vendor/bin/init.qcom.early_boot.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.efs.sync.sh:system/vendor/bin/init.qcom.efs.sync.sh \
-    vendor/asus/Z017/proprietary/vendor/bin/init.qcom.post_boot.sh:system/vendor/bin/init.qcom.post_boot.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.sdio.sh:system/vendor/bin/init.qcom.sdio.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
     vendor/asus/Z017/proprietary/vendor/bin/init.qcom.sh:system/vendor/bin/init.qcom.sh \
@@ -1407,7 +1403,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/etc/icesoundpresets.def:system/vendor/etc/icesoundpresets.def \
     vendor/asus/Z017/proprietary/vendor/etc/init.asus.camera.sh:system/vendor/etc/init.asus.camera.sh \
     vendor/asus/Z017/proprietary/vendor/etc/init.asus.thermal_conf.sh:system/vendor/etc/init.asus.thermal_conf.sh \
-    vendor/asus/Z017/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/asus/Z017/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/asus/Z017/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/asus/Z017/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -1515,7 +1510,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/asus/Z017/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/asus/Z017/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/asus/Z017/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
@@ -1529,7 +1523,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/Z017/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
-    vendor/asus/Z017/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
@@ -1767,7 +1760,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/asus/Z017/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
@@ -1781,7 +1773,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/asus/Z017/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/fingerprint.gxfp3.so:system/vendor/lib64/hw/fingerprint.gxfp3.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/fingerprint.gxfp5.so:system/vendor/lib64/hw/fingerprint.gxfp5.so \
