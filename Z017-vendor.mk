@@ -1130,6 +1130,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.wbc.xml:system/etc/permissions/com.quicinc.wbc.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.wbcservice.xml:system/etc/permissions/com.quicinc.wbcservice.xml \
@@ -1163,6 +1164,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/asus/Z017/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/asus/Z017/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/asus/Z017/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
