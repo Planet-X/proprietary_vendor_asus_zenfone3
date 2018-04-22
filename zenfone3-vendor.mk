@@ -304,7 +304,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_raw_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_raw_hdr.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
@@ -412,6 +414,32 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_4k_preview_3a.so:system/vendor/lib/libchromatix_imx258_4k_preview_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_4k_video_3a.so:system/vendor/lib/libchromatix_imx258_4k_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_4k_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_4k_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_4k_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_4k_video_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_common.so:system/vendor/lib/libchromatix_imx258_bear_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_bear_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_preview.so:system/vendor/lib/libchromatix_imx258_bear_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_bear_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_video.so:system/vendor/lib/libchromatix_imx258_bear_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_bear_cpp_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_default_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_default_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_default_video.so:system/vendor/lib/libchromatix_imx258_bear_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_default_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_default_video_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_120.so:system/vendor/lib/libchromatix_imx258_bear_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_120_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_120_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_60.so:system/vendor/lib/libchromatix_imx258_bear_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_60_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_60_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_90.so:system/vendor/lib/libchromatix_imx258_bear_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_90_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_90_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_postproc.so:system/vendor/lib/libchromatix_imx258_bear_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_preview.so:system/vendor/lib/libchromatix_imx258_bear_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_snapshot.so:system/vendor/lib/libchromatix_imx258_bear_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_video_4k.so:system/vendor/lib/libchromatix_imx258_bear_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_zsl_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_zsl_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_bear_zsl_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_zsl_video_lc898217xc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_common.so:system/vendor/lib/libchromatix_imx258_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_120.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_60.so \
@@ -432,6 +460,32 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_hfr_90_3a.so:system/vendor/lib/libchromatix_imx258_hfr_90_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_4k_preview_3a.so:system/vendor/lib/libchromatix_imx258_mono_4k_preview_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_4k_video_3a.so:system/vendor/lib/libchromatix_imx258_mono_4k_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_4k_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_4k_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_common.so:system/vendor/lib/libchromatix_imx258_mono_bear_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_preview.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_video.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_video.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_video_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_120_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_120_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_60_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_60_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_90.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_90_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_90_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_postproc.so:system/vendor/lib/libchromatix_imx258_mono_bear_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_preview.so:system/vendor/lib/libchromatix_imx258_mono_bear_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_bear_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_zsl_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_zsl_preview_lc898217xc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_bear_zsl_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_zsl_video_lc898217xc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_common.so:system/vendor/lib/libchromatix_imx258_mono_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_cpp_hfr_120.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_cpp_hfr_60.so \
@@ -463,6 +517,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx258_zsl_preview_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx258_zsl_video_3a.so:system/vendor/lib/libchromatix_imx258_zsl_video_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_3A_default.so:system/vendor/lib/libchromatix_imx298_3A_default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_4K_preview.so:system/vendor/lib/libchromatix_imx298_4K_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_4K_video.so:system/vendor/lib/libchromatix_imx298_4K_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_common_binning.so:system/vendor/lib/libchromatix_imx298_common_binning.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_common_default.so:system/vendor/lib/libchromatix_imx298_common_default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_binning.so:system/vendor/lib/libchromatix_imx298_cpp_binning.so \
@@ -485,6 +541,55 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_default_vhdr_preview.so:system/vendor/lib/libchromatix_imx298_cpp_default_vhdr_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_default_vhdr_video.so:system/vendor/lib/libchromatix_imx298_cpp_default_vhdr_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_default_video.so:system/vendor/lib/libchromatix_imx298_cpp_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx298_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx298_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_liveshot.so:system/vendor/lib/libchromatix_imx298_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_preview.so:system/vendor/lib/libchromatix_imx298_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_cpp_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_video.so:system/vendor/lib/libchromatix_imx298_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx298_cpp_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_default_preview.so:system/vendor/lib/libchromatix_imx298_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_default_video.so:system/vendor/lib/libchromatix_imx298_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_4K_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_4K_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_4K_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_4K_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_common.so:system/vendor/lib/libchromatix_imx298_gt24c64_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_liveshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_default_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_default_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hdr_snapshot_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hdr_video_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hdr_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_120.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_120_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_120_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_60.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_60_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_60_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_90.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_90_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_90_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_postproc.so:system/vendor/lib/libchromatix_imx298_gt24c64_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_snapshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_video_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_zsl_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_gt24c64_zsl_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_zsl_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hdr_video_3a.so:system/vendor/lib/libchromatix_imx298_hdr_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_120.so:system/vendor/lib/libchromatix_imx298_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_120_3a.so:system/vendor/lib/libchromatix_imx298_hfr_120_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_60.so:system/vendor/lib/libchromatix_imx298_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_60_3a.so:system/vendor/lib/libchromatix_imx298_hfr_60_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_90.so:system/vendor/lib/libchromatix_imx298_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_hfr_90_3a.so:system/vendor/lib/libchromatix_imx298_hfr_90_3a.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_isp_binning.so:system/vendor/lib/libchromatix_imx298_isp_binning.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_isp_binning_auto_capture.so:system/vendor/lib/libchromatix_imx298_isp_binning_auto_capture.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_isp_binning_auto_preview.so:system/vendor/lib/libchromatix_imx298_isp_binning_auto_preview.so \
@@ -506,12 +611,20 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_isp_default_vhdr_video.so:system/vendor/lib/libchromatix_imx298_isp_default_vhdr_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_isp_default_video.so:system/vendor/lib/libchromatix_imx298_isp_default_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_postproc_default.so:system/vendor/lib/libchromatix_imx298_postproc_default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_preview.so:system/vendor/lib/libchromatix_imx298_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_snapshot.so:system/vendor/lib/libchromatix_imx298_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_video.so:system/vendor/lib/libchromatix_imx298_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_video_hdr.so:system/vendor/lib/libchromatix_imx298_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx318_1080p_preview_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_1080p_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_1080p_video_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx318_4k_preview_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_4k_video_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_common.so:system/vendor/lib/libchromatix_imx318_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_240.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_cpp_liveshot.so:system/vendor/lib/libchromatix_imx318_cpp_liveshot.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_cpp_preview.so:system/vendor/lib/libchromatix_imx318_cpp_preview.so \
@@ -523,12 +636,118 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_fullsize_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_fullsize_video_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:system/vendor/lib/libchromatix_imx318_hfr_120.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_120_lc898212xd.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:system/vendor/lib/libchromatix_imx318_hfr_240.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_240_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:system/vendor/lib/libchromatix_imx318_hfr_60.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_60_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_postproc.so:system/vendor/lib/libchromatix_imx318_postproc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_preview.so:system/vendor/lib/libchromatix_imx318_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_snapshot.so:system/vendor/lib/libchromatix_imx318_snapshot.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:system/vendor/lib/libchromatix_imx318_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_1080p_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_1080p_preview_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_1080p_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_1080p_video_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_4k_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_4k_preview_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_4k_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_4k_video_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_common.so:system/vendor/lib/libchromatix_imx362_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_common_bear.so:system/vendor/lib/libchromatix_imx362_common_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_120_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_240.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_240_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_60_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_liveshot_bear.so:system/vendor/lib/libchromatix_imx362_cpp_liveshot_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_preview.so:system/vendor/lib/libchromatix_imx362_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_preview_bear.so:system/vendor/lib/libchromatix_imx362_cpp_preview_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_downscale_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_downscale_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_upscale_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_upscale_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video.so:system/vendor/lib/libchromatix_imx362_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_cpp_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video_4k_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_4k_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_cpp_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_hdr_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_default_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_default_preview_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_video.so:system/vendor/lib/libchromatix_imx362_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_video_3a.so:system/vendor/lib/libchromatix_imx362_default_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_default_video_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_default_video_bear.so:system/vendor/lib/libchromatix_imx362_default_video_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_fullsize_preview_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_fullsize_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_fullsize_video_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_hdr_snapshot_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hdr_snapshot_3a_bear.so:system/vendor/lib/libchromatix_imx362_hdr_snapshot_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_hdr_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_hdr_video_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_120.so:system/vendor/lib/libchromatix_imx362_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_hfr_120_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_120_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_120_bear.so:system/vendor/lib/libchromatix_imx362_hfr_120_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_240.so:system/vendor/lib/libchromatix_imx362_hfr_240.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_hfr_240_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_240_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_240_bear.so:system/vendor/lib/libchromatix_imx362_hfr_240_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_60.so:system/vendor/lib/libchromatix_imx362_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_hfr_60_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_60_3a_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_hfr_60_bear.so:system/vendor/lib/libchromatix_imx362_hfr_60_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_postproc.so:system/vendor/lib/libchromatix_imx362_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_postproc_bear.so:system/vendor/lib/libchromatix_imx362_postproc_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_preview.so:system/vendor/lib/libchromatix_imx362_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_preview_bear.so:system/vendor/lib/libchromatix_imx362_preview_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_snapshot.so:system/vendor/lib/libchromatix_imx362_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_snapshot_bear.so:system/vendor/lib/libchromatix_imx362_snapshot_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_snapshot_hdr_bear.so:system/vendor/lib/libchromatix_imx362_snapshot_hdr_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_video_4k.so:system/vendor/lib/libchromatix_imx362_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_video_4k_bear.so:system/vendor/lib/libchromatix_imx362_video_4k_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_video_hdr.so:system/vendor/lib/libchromatix_imx362_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx362_video_hdr_bear.so:system/vendor/lib/libchromatix_imx362_video_hdr_bear.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_4K_preview.so:system/vendor/lib/libchromatix_imx378_4K_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_4K_video.so:system/vendor/lib/libchromatix_imx378_4K_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_common.so:system/vendor/lib/libchromatix_imx378_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_240.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_liveshot.so:system/vendor/lib/libchromatix_imx378_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_preview.so:system/vendor/lib/libchromatix_imx378_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_snapshot.so:system/vendor/lib/libchromatix_imx378_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx378_cpp_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_video.so:system/vendor/lib/libchromatix_imx378_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx378_cpp_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_default_preview.so:system/vendor/lib/libchromatix_imx378_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_default_video.so:system/vendor/lib/libchromatix_imx378_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx378_hdr_snapshot_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hdr_video_3a.so:system/vendor/lib/libchromatix_imx378_hdr_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_120.so:system/vendor/lib/libchromatix_imx378_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_120_3a.so:system/vendor/lib/libchromatix_imx378_hfr_120_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_240.so:system/vendor/lib/libchromatix_imx378_hfr_240.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_240_3a.so:system/vendor/lib/libchromatix_imx378_hfr_240_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_60.so:system/vendor/lib/libchromatix_imx378_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_60_3a.so:system/vendor/lib/libchromatix_imx378_hfr_60_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_90.so:system/vendor/lib/libchromatix_imx378_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_hfr_90_3a.so:system/vendor/lib/libchromatix_imx378_hfr_90_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_liveshot.so:system/vendor/lib/libchromatix_imx378_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_postproc.so:system/vendor/lib/libchromatix_imx378_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_preview.so:system/vendor/lib/libchromatix_imx378_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_snapshot.so:system/vendor/lib/libchromatix_imx378_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_snapshot_hdr.so:system/vendor/lib/libchromatix_imx378_snapshot_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_video.so:system/vendor/lib/libchromatix_imx378_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_video_hdr.so:system/vendor/lib/libchromatix_imx378_video_hdr.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_zsl_preview.so:system/vendor/lib/libchromatix_imx378_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_imx378_zsl_video.so:system/vendor/lib/libchromatix_imx378_zsl_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so \
@@ -581,6 +800,21 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_video_full.so:system/vendor/lib/libchromatix_ov13850_video_full.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_a3_default_preview.so:system/vendor/lib/libchromatix_ov2281_a3_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_a3_default_video.so:system/vendor/lib/libchromatix_ov2281_a3_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_common.so:system/vendor/lib/libchromatix_ov2281_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov2281_cpp_ds_chromatix.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2281_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_preview.so:system/vendor/lib/libchromatix_ov2281_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_snapshot.so:system/vendor/lib/libchromatix_ov2281_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov2281_cpp_us_chromatix.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_cpp_video.so:system/vendor/lib/libchromatix_ov2281_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_default_video.so:system/vendor/lib/libchromatix_ov2281_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_postproc.so:system/vendor/lib/libchromatix_ov2281_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_preview.so:system/vendor/lib/libchromatix_ov2281_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_snapshot.so:system/vendor/lib/libchromatix_ov2281_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_zsl_preview.so:system/vendor/lib/libchromatix_ov2281_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2281_zsl_video.so:system/vendor/lib/libchromatix_ov2281_zsl_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2680_a3_default_preview.so:system/vendor/lib/libchromatix_ov2680_a3_default_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2680_a3_default_video.so:system/vendor/lib/libchromatix_ov2680_a3_default_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov2680_a3_hfr_60.so:system/vendor/lib/libchromatix_ov2680_a3_hfr_60.so \
@@ -697,15 +931,48 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov5695_video_full.so:system/vendor/lib/libchromatix_ov5695_video_full.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov5695_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_zsl_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov5695_zsl_video.so:system/vendor/lib/libchromatix_ov5695_zsl_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_cpp_liveshot.so:system/vendor/lib/libchromatix_ov7251_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_cpp_preview.so:system/vendor/lib/libchromatix_ov7251_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_cpp_snapshot.so:system/vendor/lib/libchromatix_ov7251_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_cpp_video.so:system/vendor/lib/libchromatix_ov7251_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_default_video.so:system/vendor/lib/libchromatix_ov7251_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_postproc.so:system/vendor/lib/libchromatix_ov7251_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_preview.so:system/vendor/lib/libchromatix_ov7251_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_snapshot.so:system/vendor/lib/libchromatix_ov7251_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_zsl_preview.so:system/vendor/lib/libchromatix_ov7251_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov7251_zsl_video.so:system/vendor/lib/libchromatix_ov7251_zsl_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_3A_default.so:system/vendor/lib/libchromatix_ov8856_3A_default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:system/vendor/lib/libchromatix_ov8856_a3_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_90.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_90.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_common_default.so:system/vendor/lib/libchromatix_ov8856_common_default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_binning.so:system/vendor/lib/libchromatix_ov8856_cpp_binning.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_binning_video.so:system/vendor/lib/libchromatix_ov8856_cpp_binning_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_default.so:system/vendor/lib/libchromatix_ov8856_cpp_default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_default_video.so:system/vendor/lib/libchromatix_ov8856_cpp_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:system/vendor/lib/libchromatix_ov8856_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8856_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:system/vendor/lib/libchromatix_ov8856_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:system/vendor/lib/libchromatix_ov8856_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_isp_binning.so:system/vendor/lib/libchromatix_ov8856_isp_binning.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_isp_default.so:system/vendor/lib/libchromatix_ov8856_isp_default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:system/vendor/lib/libchromatix_ov8856_liveshot.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_postproc_default.so:system/vendor/lib/libchromatix_ov8856_postproc_default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:system/vendor/lib/libchromatix_ov8856_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:system/vendor/lib/libchromatix_ov8856_zsl_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8858_a3_default_preview.so:system/vendor/lib/libchromatix_ov8858_a3_default_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8858_a3_default_video.so:system/vendor/lib/libchromatix_ov8858_a3_default_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8858_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8858_a3_hfr_120.so \
@@ -756,6 +1023,56 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_4k_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_4k_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_4k_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_4k_video_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_4k_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_4k_video_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_common.so:system/vendor/lib/libchromatix_s5k2l7_8953_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_default_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_default_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_default_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_default_video_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_120_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_120_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_60_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_60_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_90_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_postproc.so:system/vendor/lib/libchromatix_s5k2l7_8953_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_preview.so:system/vendor/lib/libchromatix_s5k2l7_8953_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_8953_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_zsl_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_8953_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_zsl_video_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_common.so:system/vendor/lib/libchromatix_s5k2l7_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_cpp_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_default_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_default_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_default_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_default_video_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_hfr_120.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_120_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_120_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_hfr_60.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_60_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_60_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_hfr_90.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_postproc.so:system/vendor/lib/libchromatix_s5k2l7_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_preview.so:system/vendor/lib/libchromatix_s5k2l7_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_video_4k.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k2l7_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_zsl_video_ak7371.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
@@ -878,6 +1195,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_upscale.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
@@ -895,6 +1214,31 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_common.so:system/vendor/lib/libchromatix_s5k3p3sm_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p3sm_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_common.so:system/vendor/lib/libchromatix_s5k3p8sp_common.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_postproc.so:system/vendor/lib/libchromatix_s5k3p8sp_postproc.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_preview.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sp_snapshot.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libjni.so:system/vendor/lib/libjni.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libjpegHWCompress.so:system/vendor/lib/libjpegHWCompress.so \
