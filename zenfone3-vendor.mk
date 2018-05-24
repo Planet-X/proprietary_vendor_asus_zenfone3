@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/pktlogconf:system/bin/pktlogconf \
     vendor/asus/zenfone3/proprietary/bin/recvkernelevt:system/bin/recvkernelevt \
     vendor/asus/zenfone3/proprietary/bin/sigma_dut:system/bin/sigma_dut \
-    vendor/asus/zenfone3/proprietary/bin/ssn:system/bin/ssn \
     vendor/asus/zenfone3/proprietary/bin/touch_function:system/bin/touch_function \
     vendor/asus/zenfone3/proprietary/bin/touch_self_test:system/bin/touch_self_test \
     vendor/asus/zenfone3/proprietary/bin/wfdservice:system/bin/wfdservice \
@@ -675,7 +674,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/tinyplay:system/bin/tinyplay \
     vendor/asus/zenfone3/proprietary/bin/writekey:system/bin/writekey \
     vendor/asus/zenfone3/proprietary/etc/UTSdumpstate.sh:system/etc/UTSdumpstate.sh \
-    vendor/asus/zenfone3/proprietary/etc/asusGaugeInit.sh:system/etc/asusGaugeInit.sh \
     vendor/asus/zenfone3/proprietary/etc/asus_dfps.sh:system/etc/asus_dfps.sh \
     vendor/asus/zenfone3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/asus/zenfone3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
