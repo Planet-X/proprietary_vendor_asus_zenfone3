@@ -673,26 +673,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/fsstress-run.sh:system/bin/fsstress-run.sh \
     vendor/asus/zenfone3/proprietary/bin/tinyplay:system/bin/tinyplay \
     vendor/asus/zenfone3/proprietary/bin/writekey:system/bin/writekey \
-    vendor/asus/zenfone3/proprietary/etc/UTSdumpstate.sh:system/etc/UTSdumpstate.sh \
     vendor/asus/zenfone3/proprietary/etc/asus_dfps.sh:system/etc/asus_dfps.sh \
     vendor/asus/zenfone3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/asus/zenfone3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/asus/zenfone3/proprietary/etc/cscclearlog.sh:system/etc/cscclearlog.sh \
     vendor/asus/zenfone3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/asus/zenfone3/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/asus/zenfone3/proprietary/etc/execkernelevt.sh:system/etc/execkernelevt.sh \
     vendor/asus/zenfone3/proprietary/etc/icesoundconfig.def:system/etc/icesoundconfig.def \
     vendor/asus/zenfone3/proprietary/etc/init.asus.audbg.sh:system/etc/init.asus.audbg.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.check_asdf.sh:system/etc/init.asus.check_asdf.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.check_last.sh:system/etc/init.asus.check_last.sh \
     vendor/asus/zenfone3/proprietary/etc/init.asus.checkaudbg.sh:system/etc/init.asus.checkaudbg.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.checkdatalog.sh:system/etc/init.asus.checkdatalog.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.checklogsize.sh:system/etc/init.asus.checklogsize.sh \
     vendor/asus/zenfone3/proprietary/etc/init.asus.gesture.sh:system/etc/init.asus.gesture.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.kernelmessage.sh:system/etc/init.asus.kernelmessage.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.piq.sh:system/etc/init.asus.piq.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.power.onoff.sh:system/etc/init.asus.power.onoff.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.ramdump.sh:system/etc/init.asus.ramdump.sh \
     vendor/asus/zenfone3/proprietary/etc/init.asus.set_time.sh:system/etc/init.asus.set_time.sh \
     vendor/asus/zenfone3/proprietary/etc/init/init.qti.fm.rc:system/etc/init/init.qti.fm.rc \
     vendor/asus/zenfone3/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -717,12 +706,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/asus/zenfone3/proprietary/etc/procrankdump.sh:system/etc/procrankdump.sh \
     vendor/asus/zenfone3/proprietary/etc/rgb_sensor_init.sh:system/etc/rgb_sensor_init.sh \
-    vendor/asus/zenfone3/proprietary/etc/savelogmtp.sh:system/etc/savelogmtp.sh \
-    vendor/asus/zenfone3/proprietary/etc/savelogs.sh:system/etc/savelogs.sh \
-    vendor/asus/zenfone3/proprietary/etc/savelogs_complete.sh:system/etc/savelogs_complete.sh \
-    vendor/asus/zenfone3/proprietary/etc/saveramdump.sh:system/etc/saveramdump.sh \
     vendor/asus/zenfone3/proprietary/etc/sensors_factory_init.sh:system/etc/sensors_factory_init.sh \
     vendor/asus/zenfone3/proprietary/etc/sensors_init.sh:system/etc/sensors_init.sh \
     vendor/asus/zenfone3/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
@@ -910,12 +894,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.asus.usb.sh:system/vendor/bin/init.asus.usb.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.class_main.sh:system/vendor/bin/init.class_main.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.class_core.sh:system/vendor/bin/init.qcom.class_core.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.coex.sh:system/vendor/bin/init.qcom.coex.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.early_boot.sh:system/vendor/bin/init.qcom.early_boot.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.efs.sync.sh:system/vendor/bin/init.qcom.efs.sync.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sdio.sh:system/vendor/bin/init.qcom.sdio.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
