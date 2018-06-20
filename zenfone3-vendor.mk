@@ -642,6 +642,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.gxfpa.so:system/vendor/lib64/hw/fingerprint.gxfpa.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint_gxfp3.default.so:system/vendor/lib64/hw/gxfingerprint_gxfp3.default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfp_client_gxfp3.so:system/vendor/lib64/libfp_client_gxfp3.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpnav.so:system/vendor/lib64/libfpnav.so \
