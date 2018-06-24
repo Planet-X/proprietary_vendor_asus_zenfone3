@@ -642,7 +642,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.gxfpa.so:system/vendor/lib64/hw/fingerprint.gxfpa.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint_gxfp3.default.so:system/vendor/lib64/hw/gxfingerprint_gxfp3.default.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfp_client_gxfp3.so:system/vendor/lib64/libfp_client_gxfp3.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpnav.so:system/vendor/lib64/libfpnav.so \
@@ -1244,7 +1243,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
@@ -1552,7 +1550,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libsdm-disp-apis \
     vendor.qti.hardware.fm@1.0 \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
@@ -1562,6 +1559,7 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libbtnv \
     libgpustats \
+    libsdm-disp-apis \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
