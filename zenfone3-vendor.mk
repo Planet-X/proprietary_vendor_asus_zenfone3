@@ -874,6 +874,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/zenfone3/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/asus/zenfone3/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -896,7 +897,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.qti.ims.sh:system/vendor/bin/init.qti.ims.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/asus/zenfone3/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/asus/zenfone3/proprietary/vendor/bin/is_keybox_valid:system/vendor/bin/is_keybox_valid \
     vendor/asus/zenfone3/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/asus/zenfone3/proprietary/vendor/bin/mmi:system/vendor/bin/mmi \
     vendor/asus/zenfone3/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
@@ -913,7 +913,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/asus/zenfone3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/zenfone3/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/asus/zenfone3/proprietary/vendor/bin/widevine.sh:system/vendor/bin/widevine.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
     vendor/asus/zenfone3/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/asus/zenfone3/proprietary/vendor/etc/Tfa98xx.cnt:system/vendor/etc/Tfa98xx.cnt \
@@ -945,6 +944,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/icesoundpresets.def:system/vendor/etc/icesoundpresets.def \
     vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.camera.sh:system/vendor/etc/init.asus.camera.sh \
     vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.thermal_conf.sh:system/vendor/etc/init.asus.thermal_conf.sh \
+    vendor/asus/zenfone3/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
@@ -1252,6 +1252,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -1567,5 +1568,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
-
 endif
