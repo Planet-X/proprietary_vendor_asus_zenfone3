@@ -723,7 +723,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/asus/zenfone3/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/asus/zenfone3/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/asus/zenfone3/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/asus/zenfone3/proprietary/vendor/framework/embmslibrary.jar:system/vendor/framework/embmslibrary.jar \
     vendor/asus/zenfone3/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/zenfone3/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
     vendor/asus/zenfone3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
