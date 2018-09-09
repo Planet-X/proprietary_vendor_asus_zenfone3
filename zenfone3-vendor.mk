@@ -39,14 +39,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/sigma_dut:system/bin/sigma_dut \
     vendor/asus/zenfone3/proprietary/bin/touch_function:system/bin/touch_function \
     vendor/asus/zenfone3/proprietary/bin/touch_self_test:system/bin/touch_self_test \
-    vendor/asus/zenfone3/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/asus/zenfone3/proprietary/bin/writekey:system/bin/writekey \
     vendor/asus/zenfone3/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
+    vendor/asus/zenfone3/proprietary/etc/init.asus.set_time.sh:system/etc/init.asus.set_time.sh \
     vendor/asus/zenfone3/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/asus/zenfone3/proprietary/etc/rgb_sensor_init.sh:system/etc/rgb_sensor_init.sh \
     vendor/asus/zenfone3/proprietary/etc/rndisdiag.sh:system/etc/rndisdiag.sh \
-    vendor/asus/zenfone3/proprietary/etc/select_mic.sh:system/etc/select_mic.sh \
-    vendor/asus/zenfone3/proprietary/etc/select_output.sh:system/etc/select_output.sh \
+    vendor/asus/zenfone3/proprietary/etc/sensors_factory_init.sh:system/etc/sensors_factory_init.sh \
+    vendor/asus/zenfone3/proprietary/etc/sensors_init.sh:system/etc/sensors_init.sh \
     vendor/asus/zenfone3/proprietary/etc/spkampcal.sh:system/etc/spkampcal.sh \
     vendor/asus/zenfone3/proprietary/framework/btmultisimlibrary.jar:system/framework/btmultisimlibrary.jar \
     vendor/asus/zenfone3/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
@@ -66,18 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
     vendor/asus/zenfone3/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     vendor/asus/zenfone3/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor.so:system/lib/libscveBlobDescriptor.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_skel.so:system/lib/libscveBlobDescriptor_skel.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveBlobDescriptor_stub.so:system/lib/libscveBlobDescriptor_stub.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveCommon.so:system/lib/libscveCommon.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveCommon_stub.so:system/lib/libscveCommon_stub.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveImageCorrection.so:system/lib/libscveImageCorrection.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveObjectSegmentation.so:system/lib/libscveObjectSegmentation.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveObjectTracker.so:system/lib/libscveObjectTracker.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveObjectTracker_stub.so:system/lib/libscveObjectTracker_stub.so \
-    vendor/asus/zenfone3/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
-    vendor/asus/zenfone3/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
-    vendor/asus/zenfone3/proprietary/lib/libscveT2T_skel.so:system/lib/libscveT2T_skel.so \
+    vendor/asus/zenfone3/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
@@ -101,16 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
     vendor/asus/zenfone3/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
     vendor/asus/zenfone3/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveBlobDescriptor.so:system/lib64/libscveBlobDescriptor.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveBlobDescriptor_stub.so:system/lib64/libscveBlobDescriptor_stub.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveCommon.so:system/lib64/libscveCommon.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveCommon_stub.so:system/lib64/libscveCommon_stub.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveImageCorrection.so:system/lib64/libscveImageCorrection.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveObjectSegmentation.so:system/lib64/libscveObjectSegmentation.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker.so:system/lib64/libscveObjectTracker.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscveObjectTracker_stub.so:system/lib64/libscveObjectTracker_stub.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
-    vendor/asus/zenfone3/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
+    vendor/asus/zenfone3/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
@@ -136,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/StoreKeybox:system/vendor/bin/StoreKeybox \
     vendor/asus/zenfone3/proprietary/vendor/bin/WifiLogger_app:system/vendor/bin/WifiLogger_app \
     vendor/asus/zenfone3/proprietary/vendor/bin/athdiag:system/vendor/bin/athdiag \
-    vendor/asus/zenfone3/proprietary/vendor/bin/btwifimac.sh:system/vendor/bin/btwifimac.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash:system/vendor/bin/camera_flash \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash2:system/vendor/bin/camera_flash2 \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash3:system/vendor/bin/camera_flash3 \
@@ -157,9 +136,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/hal_proxy_daemon:system/vendor/bin/hal_proxy_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/hostapd_cmd:system/vendor/bin/hostapd_cmd \
     vendor/asus/zenfone3/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/asus/zenfone3/proprietary/vendor/bin/init.class_main.sh:system/vendor/bin/init.class_main.sh \
+    vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
+    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/install_key_server:system/vendor/bin/install_key_server \
     vendor/asus/zenfone3/proprietary/vendor/bin/lightsensor_calibration_start:system/vendor/bin/lightsensor_calibration_start \
-    vendor/asus/zenfone3/proprietary/vendor/bin/mm-audio-ftm:system/vendor/bin/mm-audio-ftm \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-vidc-omx-test:system/vendor/bin/mm-vidc-omx-test \
@@ -168,14 +149,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/proximity_calibration_start:system/vendor/bin/proximity_calibration_start \
     vendor/asus/zenfone3/proprietary/vendor/bin/proximity_poll_get_proxm:system/vendor/bin/proximity_poll_get_proxm \
     vendor/asus/zenfone3/proprietary/vendor/bin/ptt_socket_app:system/vendor/bin/ptt_socket_app \
-    vendor/asus/zenfone3/proprietary/vendor/bin/qmi_simple_ril_test:system/vendor/bin/qmi_simple_ril_test \
-    vendor/asus/zenfone3/proprietary/vendor/bin/qseecom_sample_client:system/vendor/bin/qseecom_sample_client \
-    vendor/asus/zenfone3/proprietary/vendor/bin/secure_ui_sample_client:system/vendor/bin/secure_ui_sample_client \
     vendor/asus/zenfone3/proprietary/vendor/bin/ssr_cfg.sh:system/vendor/bin/ssr_cfg.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/ssr_diag:system/vendor/bin/ssr_diag \
     vendor/asus/zenfone3/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/asus/zenfone3/proprietary/vendor/bin/ssr_ui.sh:system/vendor/bin/ssr_ui.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/vendor_cmd_tool:system/vendor/bin/vendor_cmd_tool \
+    vendor/asus/zenfone3/proprietary/vendor/etc/Tfa98xx.cnt:system/vendor/etc/Tfa98xx.cnt \
     vendor/asus/zenfone3/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/asus/zenfone3/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/asus/zenfone3/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -185,8 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/asus/zenfone3/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/asus/zenfone3/proprietary/vendor/etc/apdr.conf:system/vendor/etc/apdr.conf \
-    vendor/asus/zenfone3/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
-    vendor/asus/zenfone3/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b00:system/vendor/etc/firmware/fpseekta.b00 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b01:system/vendor/etc/firmware/fpseekta.b01 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b02:system/vendor/etc/firmware/fpseekta.b02 \
@@ -219,7 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.b05:system/vendor/etc/firmware/gxfpa.b05 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.b06:system/vendor/etc/firmware/gxfpa.b06 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.mdt:system/vendor/etc/firmware/gxfpa.mdt \
-    vendor/asus/zenfone3/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.thermal_conf.sh:system/vendor/etc/init.asus.thermal_conf.sh \
+    vendor/asus/zenfone3/proprietary/vendor/etc/ois_init.sh:system/vendor/etc/ois_init.sh \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
@@ -469,9 +447,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libjpeggifcodec.so:system/vendor/lib/libjpeggifcodec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -503,17 +479,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx258_mono.so:system/vendor/lib/libmmcamera_imx258_mono.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx318.so:system/vendor/lib/libmmcamera_imx318.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx362.so:system/vendor/lib/libmmcamera_imx362.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_imx378.so:system/vendor/lib/libmmcamera_imx378.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
@@ -556,21 +522,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov2281.so:system/vendor/lib/libmmcamera_ov2281.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov7251.so:system/vendor/lib/libmmcamera_ov7251.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
@@ -580,21 +533,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k2l7.so:system/vendor/lib/libmmcamera_s5k2l7.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:system/vendor/lib/libmmcamera_s5k3p3sm.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:system/vendor/lib/libmmcamera_s5k3p8sp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
@@ -648,10 +591,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpnav_gxfp3.so:system/vendor/lib64/libfpnav_gxfp3.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpservice.so:system/vendor/lib64/libfpservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpservice_gxfp3.so:system/vendor/lib64/libfpservice_gxfp3.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libmm-omxcore.so:system/vendor/lib64/libmm-omxcore.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
@@ -663,26 +602,19 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_detected_face_hal.so:system/vendor/lib64/libts_detected_face_hal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libts_face_beautify_hal.so:system/vendor/lib64/libts_face_beautify_hal.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libubifocus.so:system/vendor/lib64/libubifocus.so \
-    vendor/asus/zenfone3/proprietary/vendor/xbin/netlog.sh:system/vendor/xbin/netlog.sh
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libubifocus.so:system/vendor/lib64/libubifocus.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/asus/zenfone3/proprietary/bin/filldata.sh:system/bin/filldata.sh \
-    vendor/asus/zenfone3/proprietary/bin/fsstress-run.sh:system/bin/fsstress-run.sh \
     vendor/asus/zenfone3/proprietary/bin/tinyplay:system/bin/tinyplay \
-    vendor/asus/zenfone3/proprietary/bin/writekey:system/bin/writekey \
-    vendor/asus/zenfone3/proprietary/etc/asus_dfps.sh:system/etc/asus_dfps.sh \
+    vendor/asus/zenfone3/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/asus/zenfone3/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/asus/zenfone3/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/asus/zenfone3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/asus/zenfone3/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/asus/zenfone3/proprietary/etc/icesoundconfig.def:system/etc/icesoundconfig.def \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.audbg.sh:system/etc/init.asus.audbg.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.checkaudbg.sh:system/etc/init.asus.checkaudbg.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.gesture.sh:system/etc/init.asus.gesture.sh \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.set_time.sh:system/etc/init.asus.set_time.sh \
+    vendor/asus/zenfone3/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/asus/zenfone3/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -690,29 +622,20 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/com.quicinc.wbc.xml:system/etc/permissions/com.quicinc.wbc.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/com.quicinc.wbcservice.xml:system/etc/permissions/com.quicinc.wbcservice.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/qcom_logkit.xml:system/etc/permissions/qcom_logkit.xml \
+    vendor/asus/zenfone3/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/radioconfig.xml:system/etc/permissions/radioconfig.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/radioconfiginterface.xml:system/etc/permissions/radioconfiginterface.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
-    vendor/asus/zenfone3/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
     vendor/asus/zenfone3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:system/vendor/etc/permissions/vendor-qti-hardware-alarm.xml \
-    vendor/asus/zenfone3/proprietary/etc/rgb_sensor_init.sh:system/etc/rgb_sensor_init.sh \
-    vendor/asus/zenfone3/proprietary/etc/sensors_factory_init.sh:system/etc/sensors_factory_init.sh \
-    vendor/asus/zenfone3/proprietary/etc/sensors_init.sh:system/etc/sensors_init.sh \
     vendor/asus/zenfone3/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
-    vendor/asus/zenfone3/proprietary/etc/wfdconfig_720.xml:system/etc/wfdconfig_720.xml \
     vendor/asus/zenfone3/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
-    vendor/asus/zenfone3/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/asus/zenfone3/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/asus/zenfone3/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -720,17 +643,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/asus/zenfone3/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/asus/zenfone3/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
-    vendor/asus/zenfone3/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/asus/zenfone3/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/asus/zenfone3/proprietary/vendor/framework/embmslibrary.jar:system/vendor/framework/embmslibrary.jar \
     vendor/asus/zenfone3/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/asus/zenfone3/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
     vendor/asus/zenfone3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/asus/zenfone3/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
     vendor/asus/zenfone3/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/asus/zenfone3/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
-    vendor/asus/zenfone3/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
     vendor/asus/zenfone3/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -740,38 +657,34 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/asus/zenfone3/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/asus/zenfone3/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
-    vendor/asus/zenfone3/proprietary/lib/libFidoCryptoJNI.so:system/lib/libFidoCryptoJNI.so \
-    vendor/asus/zenfone3/proprietary/lib/libFidoCrypto_system.so:system/lib/libFidoCrypto_system.so \
+    vendor/asus/zenfone3/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/asus/zenfone3/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/asus/zenfone3/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
+    vendor/asus/zenfone3/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/asus/zenfone3/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
-    vendor/asus/zenfone3/proprietary/lib/libSampleAuthJNI.so:system/lib/libSampleAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib/libSampleExtAuthJNI.so:system/lib/libSampleExtAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib/libSecureExtAuthJNI.so:system/lib/libSecureExtAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib/libSecureSampleAuthJNI.so:system/lib/libSecureSampleAuthJNI.so \
     vendor/asus/zenfone3/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/asus/zenfone3/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/asus/zenfone3/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/asus/zenfone3/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
     vendor/asus/zenfone3/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
     vendor/asus/zenfone3/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/asus/zenfone3/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
     vendor/asus/zenfone3/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/asus/zenfone3/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/asus/zenfone3/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/asus/zenfone3/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
-    vendor/asus/zenfone3/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
+    vendor/asus/zenfone3/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/asus/zenfone3/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/asus/zenfone3/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/asus/zenfone3/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/asus/zenfone3/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/asus/zenfone3/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/asus/zenfone3/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/asus/zenfone3/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/asus/zenfone3/proprietary/lib/libsecureuisvc_jni.so:system/lib/libsecureuisvc_jni.so \
     vendor/asus/zenfone3/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/asus/zenfone3/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
-    vendor/asus/zenfone3/proprietary/lib/libwbc_jni.so:system/lib/libwbc_jni.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/asus/zenfone3/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/asus/zenfone3/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/asus/zenfone3/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
@@ -783,15 +696,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/asus/zenfone3/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/asus/zenfone3/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    vendor/asus/zenfone3/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/asus/zenfone3/proprietary/lib/soundfx/libicepower.so:system/lib/soundfx/libicepower.so \
-    vendor/asus/zenfone3/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
-    vendor/asus/zenfone3/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/asus/zenfone3/proprietary/lib/wbc_hal.default.so:system/lib/wbc_hal.default.so \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
@@ -801,14 +710,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/asus/zenfone3/proprietary/lib64/libFidoCryptoJNI.so:system/lib64/libFidoCryptoJNI.so \
-    vendor/asus/zenfone3/proprietary/lib64/libFidoCrypto_system.so:system/lib64/libFidoCrypto_system.so \
+    vendor/asus/zenfone3/proprietary/lib64/libExtendedExtractor.so:system/lib64/libExtendedExtractor.so \
+    vendor/asus/zenfone3/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/asus/zenfone3/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
+    vendor/asus/zenfone3/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/asus/zenfone3/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
-    vendor/asus/zenfone3/proprietary/lib64/libSampleAuthJNI.so:system/lib64/libSampleAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib64/libSampleExtAuthJNI.so:system/lib64/libSampleExtAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib64/libSecureExtAuthJNI.so:system/lib64/libSecureExtAuthJNI.so \
-    vendor/asus/zenfone3/proprietary/lib64/libSecureSampleAuthJNI.so:system/lib64/libSecureSampleAuthJNI.so \
     vendor/asus/zenfone3/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -817,21 +723,23 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/asus/zenfone3/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
     vendor/asus/zenfone3/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/asus/zenfone3/proprietary/lib64/libhbtpjni.so:system/lib64/libhbtpjni.so \
     vendor/asus/zenfone3/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/asus/zenfone3/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/asus/zenfone3/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
+    vendor/asus/zenfone3/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/asus/zenfone3/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
     vendor/asus/zenfone3/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/asus/zenfone3/proprietary/lib64/libsecureuisvc_jni.so:system/lib64/libsecureuisvc_jni.so \
-    vendor/asus/zenfone3/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/asus/zenfone3/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
-    vendor/asus/zenfone3/proprietary/lib64/libwbc_jni.so:system/lib64/libwbc_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
+    vendor/asus/zenfone3/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
+    vendor/asus/zenfone3/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
+    vendor/asus/zenfone3/proprietary/lib64/libwfdmminterface.so:system/lib64/libwfdmminterface.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdmmsink.so:system/lib64/libwfdmmsink.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdmmsrc.so:system/lib64/libwfdmmsrc.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
@@ -844,28 +752,21 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libwfduibcsrc.so:system/lib64/libwfduibcsrc.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfduibcsrcinterface.so:system/lib64/libwfduibcsrcinterface.so \
     vendor/asus/zenfone3/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/asus/zenfone3/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/asus/zenfone3/proprietary/lib64/wbc_hal.default.so:system/lib64/wbc_hal.default.so \
-    vendor/asus/zenfone3/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/asus/zenfone3/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/asus/zenfone3/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/asus/zenfone3/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/asus/zenfone3/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ftmdaemon:system/vendor/bin/ftmdaemon \
-    vendor/asus/zenfone3/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/zenfone3/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
-    vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -875,17 +776,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.class_main.sh:system/vendor/bin/init.class_main.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.class_core.sh:system/vendor/bin/init.qcom.class_core.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.coex.sh:system/vendor/bin/init.qcom.coex.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.efs.sync.sh:system/vendor/bin/init.qcom.efs.sync.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sdio.sh:system/vendor/bin/init.qcom.sdio.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.sh:system/vendor/bin/init.qcom.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.usb.sh:system/vendor/bin/init.qcom.usb.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qcom.wifi.sh:system/vendor/bin/init.qcom.wifi.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.qti.ims.sh:system/vendor/bin/init.qti.ims.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/asus/zenfone3/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/asus/zenfone3/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -895,19 +785,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/asus/zenfone3/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
-    vendor/asus/zenfone3/proprietary/vendor/bin/qca6234-service.sh:system/vendor/bin/qca6234-service.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/zenfone3/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/asus/zenfone3/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/asus/zenfone3/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/asus/zenfone3/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
-    vendor/asus/zenfone3/proprietary/vendor/bin/subsystem_ramdump:system/vendor/bin/subsystem_ramdump \
     vendor/asus/zenfone3/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/asus/zenfone3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/zenfone3/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
     vendor/asus/zenfone3/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
-    vendor/asus/zenfone3/proprietary/vendor/etc/Tfa98xx.cnt:system/vendor/etc/Tfa98xx.cnt \
     vendor/asus/zenfone3/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -931,33 +818,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/asus/zenfone3/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
-    vendor/asus/zenfone3/proprietary/vendor/etc/hbtp/hbtpcfg.dat:system/vendor/etc/hbtp/hbtpcfg.dat \
-    vendor/asus/zenfone3/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:system/vendor/etc/hbtp/qtc800s_dsp.bin \
     vendor/asus/zenfone3/proprietary/vendor/etc/icesoundpresets.def:system/vendor/etc/icesoundpresets.def \
-    vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.camera.sh:system/vendor/etc/init.asus.camera.sh \
-    vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.thermal_conf.sh:system/vendor/etc/init.asus.thermal_conf.sh \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/ois_init.sh:system/vendor/etc/ois_init.sh \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/IMS.dmc:system/vendor/etc/qti-logkit/IMS.dmc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/audiobasic.dmc:system/vendor/etc/qti-logkit/audiobasic.dmc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/gnsslocationlogging.dmc:system/vendor/etc/qti-logkit/gnsslocationlogging.dmc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/goldenlogmask.dmc:system/vendor/etc/qti-logkit/goldenlogmask.dmc \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/qti_logkit_command.xml:system/vendor/etc/qti-logkit/qti_logkit_command.xml \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/qti_logkit_config.xml:system/vendor/etc/qti-logkit/qti_logkit_config.xml \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/scenarios/IMS.png:system/vendor/etc/qti-logkit/scenarios/IMS.png \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/scenarios/bluetooth.png:system/vendor/etc/qti-logkit/scenarios/bluetooth.png \
-    vendor/asus/zenfone3/proprietary/vendor/etc/qti-logkit/scenarios/default.png:system/vendor/etc/qti-logkit/scenarios/default.png \
     vendor/asus/zenfone3/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/asus/zenfone3/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/asus/zenfone3/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/asus/zenfone3/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
     vendor/asus/zenfone3/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
     vendor/asus/zenfone3/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
@@ -1061,8 +932,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
@@ -1080,9 +949,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libFidoCrypto_vendor.so:system/vendor/lib/libFidoCrypto_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libGPTEE_vendor.so:system/vendor/lib/libGPTEE_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
@@ -1107,10 +973,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libUserAgent.so:system/vendor/lib/libUserAgent.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -1121,7 +983,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
@@ -1133,41 +994,23 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
@@ -1176,7 +1019,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
@@ -1184,7 +1026,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libqdutils.so:system/vendor/lib/libqdutils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -1194,7 +1035,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libqservice.so:system/vendor/lib/libqservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -1226,15 +1066,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:system/vendor/lib/libwfdcommonutils_proprietary.so \
@@ -1246,7 +1083,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
@@ -1265,8 +1101,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
@@ -1280,7 +1114,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so:system/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
@@ -1299,14 +1132,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.gxfp3.so:system/vendor/lib64/hw/fingerprint.gxfp3.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.gxfp5.so:system/vendor/lib64/hw/fingerprint.gxfp5.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.gxfpa.so:system/vendor/lib64/hw/fingerprint.gxfpa.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gxfingerprint_gxfp3.default.so:system/vendor/lib64/hw/gxfingerprint_gxfp3.default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
@@ -1325,8 +1152,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libFIDOKeyProvisioning.so:system/vendor/lib64/libFIDOKeyProvisioning.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libFidoCrypto_vendor.so:system/vendor/lib64/libFidoCrypto_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libGPTEE_vendor.so:system/vendor/lib64/libGPTEE_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
@@ -1336,10 +1161,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libUserAgent.so:system/vendor/lib64/libUserAgent.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/lib_remote_simlock.so:system/vendor/lib64/lib_remote_simlock.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -1376,9 +1198,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libhbtpclient.so:system/vendor/lib64/libhbtpclient.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libhbtpdsp.so:system/vendor/lib64/libhbtpdsp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libhbtpfrmwk.so:system/vendor/lib64/libhbtpfrmwk.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
@@ -1387,7 +1206,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
@@ -1407,7 +1225,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libqdutils.so:system/vendor/lib64/libqdutils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
@@ -1417,7 +1234,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libqservice.so:system/vendor/lib64/libqservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -1453,7 +1269,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
@@ -1476,7 +1291,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
@@ -1501,7 +1315,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
-    libaudio_log_utils \
     libbtnv \
     libgpustats \
     libsdm-disp-vndapis \
@@ -1509,6 +1322,9 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     QtiTelephonyService \
+    WfdService \
+    datastatusnotification \
+    embms \
     ims \
     imssettings \
     radioconfig \
