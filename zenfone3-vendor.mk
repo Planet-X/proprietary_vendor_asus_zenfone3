@@ -965,6 +965,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
@@ -1159,6 +1160,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
