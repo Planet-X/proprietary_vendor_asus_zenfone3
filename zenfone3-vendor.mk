@@ -18,42 +18,14 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/LaserFocus_CalStart:system/bin/LaserFocus_CalStart \
     vendor/asus/zenfone3/proprietary/bin/LaserFocus_on:system/bin/LaserFocus_on \
-    vendor/asus/zenfone3/proprietary/bin/LedTest:system/bin/LedTest \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_cal:system/bin/RGBSensor_cal \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_get_golden:system/bin/RGBSensor_get_golden \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_value:system/bin/RGBSensor_value \
     vendor/asus/zenfone3/proprietary/bin/SpeakerCalibrationTest:system/bin/SpeakerCalibrationTest \
-    vendor/asus/zenfone3/proprietary/bin/VerifyVouchers:system/bin/VerifyVouchers \
-    vendor/asus/zenfone3/proprietary/bin/climax_hostSW:system/bin/climax_hostSW \
     vendor/asus/zenfone3/proprietary/bin/ditbsp:system/bin/ditbsp \
-    vendor/asus/zenfone3/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/asus/zenfone3/proprietary/bin/exfatck:system/bin/exfatck \
-    vendor/asus/zenfone3/proprietary/bin/exfatlabel:system/bin/exfatlabel \
-    vendor/asus/zenfone3/proprietary/bin/exfatvsn:system/bin/exfatvsn \
-    vendor/asus/zenfone3/proprietary/bin/fw_auto_update.sh:system/bin/fw_auto_update.sh \
-    vendor/asus/zenfone3/proprietary/bin/mkexfat:system/bin/mkexfat \
-    vendor/asus/zenfone3/proprietary/bin/mkntfs:system/bin/mkntfs \
-    vendor/asus/zenfone3/proprietary/bin/ntfsck:system/bin/ntfsck \
-    vendor/asus/zenfone3/proprietary/bin/pktlogconf:system/bin/pktlogconf \
-    vendor/asus/zenfone3/proprietary/bin/recvkernelevt:system/bin/recvkernelevt \
-    vendor/asus/zenfone3/proprietary/bin/sigma_dut:system/bin/sigma_dut \
-    vendor/asus/zenfone3/proprietary/bin/touch_function:system/bin/touch_function \
-    vendor/asus/zenfone3/proprietary/bin/touch_self_test:system/bin/touch_self_test \
-    vendor/asus/zenfone3/proprietary/bin/writekey:system/bin/writekey \
-    vendor/asus/zenfone3/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
-    vendor/asus/zenfone3/proprietary/etc/init.asus.set_time.sh:system/etc/init.asus.set_time.sh \
-    vendor/asus/zenfone3/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
-    vendor/asus/zenfone3/proprietary/etc/rgb_sensor_init.sh:system/etc/rgb_sensor_init.sh \
-    vendor/asus/zenfone3/proprietary/etc/rndisdiag.sh:system/etc/rndisdiag.sh \
-    vendor/asus/zenfone3/proprietary/etc/sensors_factory_init.sh:system/etc/sensors_factory_init.sh \
-    vendor/asus/zenfone3/proprietary/etc/sensors_init.sh:system/etc/sensors_init.sh \
     vendor/asus/zenfone3/proprietary/etc/spkampcal.sh:system/etc/spkampcal.sh \
-    vendor/asus/zenfone3/proprietary/framework/btmultisimlibrary.jar:system/framework/btmultisimlibrary.jar \
-    vendor/asus/zenfone3/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
-    vendor/asus/zenfone3/proprietary/framework/uimlpalibrary.jar:system/framework/uimlpalibrary.jar \
     vendor/asus/zenfone3/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/zenfone3/proprietary/lib/libAsusRGBSensorHAL.so:system/lib/libAsusRGBSensorHAL.so \
-    vendor/asus/zenfone3/proprietary/lib/libdevicedata.so:system/lib/libdevicedata.so \
     vendor/asus/zenfone3/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/asus/zenfone3/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
     vendor/asus/zenfone3/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
@@ -74,10 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
-    vendor/asus/zenfone3/proprietary/lib64/libGVoucher.so:system/lib64/libGVoucher.so \
-    vendor/asus/zenfone3/proprietary/lib64/libcctapi.so:system/lib64/libcctapi.so \
-    vendor/asus/zenfone3/proprietary/lib64/libdevicedata.so:system/lib64/libdevicedata.so \
-    vendor/asus/zenfone3/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/asus/zenfone3/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
     vendor/asus/zenfone3/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
     vendor/asus/zenfone3/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
@@ -110,52 +78,19 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/Camera_OIS_Write:system/vendor/bin/Camera_OIS_Write \
     vendor/asus/zenfone3/proprietary/vendor/bin/Camera_Unique_ID:system/vendor/bin/Camera_Unique_ID \
     vendor/asus/zenfone3/proprietary/vendor/bin/DIT_LaserOn:system/vendor/bin/DIT_LaserOn \
-    vendor/asus/zenfone3/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
-    vendor/asus/zenfone3/proprietary/vendor/bin/KillMediaserver:system/vendor/bin/KillMediaserver \
-    vendor/asus/zenfone3/proprietary/vendor/bin/PktRspTest:system/vendor/bin/PktRspTest \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ProximityCalibration:system/vendor/bin/ProximityCalibration \
-    vendor/asus/zenfone3/proprietary/vendor/bin/RestoreCalibrationData:system/vendor/bin/RestoreCalibrationData \
-    vendor/asus/zenfone3/proprietary/vendor/bin/StoreKeybox:system/vendor/bin/StoreKeybox \
-    vendor/asus/zenfone3/proprietary/vendor/bin/WifiLogger_app:system/vendor/bin/WifiLogger_app \
-    vendor/asus/zenfone3/proprietary/vendor/bin/athdiag:system/vendor/bin/athdiag \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash:system/vendor/bin/camera_flash \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash2:system/vendor/bin/camera_flash2 \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash3:system/vendor/bin/camera_flash3 \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_callback_sample:system/vendor/bin/diag_callback_sample \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_dci_sample:system/vendor/bin/diag_dci_sample \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_klog:system/vendor/bin/diag_klog \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_mdlog:system/vendor/bin/diag_mdlog \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_socket_log:system/vendor/bin/diag_socket_log \
-    vendor/asus/zenfone3/proprietary/vendor/bin/diag_uart_log:system/vendor/bin/diag_uart_log \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_af_cali:system/vendor/bin/dit_af_cali \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_cali:system/vendor/bin/dit_cali \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_cali_golden:system/vendor/bin/dit_cali_golden \
-    vendor/asus/zenfone3/proprietary/vendor/bin/e_loop:system/vendor/bin/e_loop \
     vendor/asus/zenfone3/proprietary/vendor/bin/fpseek:system/vendor/bin/fpseek \
-    vendor/asus/zenfone3/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd_gxfp3:system/vendor/bin/gx_fpd_gxfp3 \
-    vendor/asus/zenfone3/proprietary/vendor/bin/hal_proxy_daemon:system/vendor/bin/hal_proxy_daemon \
-    vendor/asus/zenfone3/proprietary/vendor/bin/hostapd_cmd:system/vendor/bin/hostapd_cmd \
-    vendor/asus/zenfone3/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/install_key_server:system/vendor/bin/install_key_server \
-    vendor/asus/zenfone3/proprietary/vendor/bin/lightsensor_calibration_start:system/vendor/bin/lightsensor_calibration_start \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/asus/zenfone3/proprietary/vendor/bin/mm-vidc-omx-test:system/vendor/bin/mm-vidc-omx-test \
-    vendor/asus/zenfone3/proprietary/vendor/bin/mmi_debug:system/vendor/bin/mmi_debug \
-    vendor/asus/zenfone3/proprietary/vendor/bin/modem_country:system/vendor/bin/modem_country \
-    vendor/asus/zenfone3/proprietary/vendor/bin/proximity_calibration_start:system/vendor/bin/proximity_calibration_start \
-    vendor/asus/zenfone3/proprietary/vendor/bin/proximity_poll_get_proxm:system/vendor/bin/proximity_poll_get_proxm \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ptt_socket_app:system/vendor/bin/ptt_socket_app \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ssr_cfg.sh:system/vendor/bin/ssr_cfg.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ssr_diag:system/vendor/bin/ssr_diag \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
-    vendor/asus/zenfone3/proprietary/vendor/bin/ssr_ui.sh:system/vendor/bin/ssr_ui.sh \
-    vendor/asus/zenfone3/proprietary/vendor/bin/vendor_cmd_tool:system/vendor/bin/vendor_cmd_tool \
     vendor/asus/zenfone3/proprietary/vendor/etc/Tfa98xx.cnt:system/vendor/etc/Tfa98xx.cnt \
-    vendor/asus/zenfone3/proprietary/vendor/etc/apdr.conf:system/vendor/etc/apdr.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b00:system/vendor/etc/firmware/fpseekta.b00 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b01:system/vendor/etc/firmware/fpseekta.b01 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b02:system/vendor/etc/firmware/fpseekta.b02 \
@@ -189,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.b06:system/vendor/etc/firmware/gxfpa.b06 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.mdt:system/vendor/etc/firmware/gxfpa.mdt \
     vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.thermal_conf.sh:system/vendor/etc/init.asus.thermal_conf.sh \
-    vendor/asus/zenfone3/proprietary/vendor/etc/ois_init.sh:system/vendor/etc/ois_init.sh \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
