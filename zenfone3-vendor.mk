@@ -26,14 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/etc/spkampcal.sh:system/etc/spkampcal.sh \
     vendor/asus/zenfone3/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/zenfone3/proprietary/lib/libAsusRGBSensorHAL.so:system/lib/libAsusRGBSensorHAL.so \
-    vendor/asus/zenfone3/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
-    vendor/asus/zenfone3/proprietary/lib/libskia-v28.so:system/lib/libskia-v28.so \
     vendor/asus/zenfone3/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
-    vendor/asus/zenfone3/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
-    vendor/asus/zenfone3/proprietary/lib64/libskia-v28.so:system/lib64/libskia-v28.so \
     vendor/asus/zenfone3/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/vendor/bin/BackupCalibrationData:$(TARGET_COPY_OUT_VENDOR)/bin/BackupCalibrationData \
     vendor/asus/zenfone3/proprietary/vendor/bin/CameraModule:$(TARGET_COPY_OUT_VENDOR)/bin/CameraModule \
