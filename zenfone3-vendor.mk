@@ -49,9 +49,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_af_cali:$(TARGET_COPY_OUT_VENDOR)/bin/dit_af_cali \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_cali:$(TARGET_COPY_OUT_VENDOR)/bin/dit_cali \
     vendor/asus/zenfone3/proprietary/vendor/bin/dit_cali_golden:$(TARGET_COPY_OUT_VENDOR)/bin/dit_cali_golden \
+    vendor/asus/zenfone3/proprietary/vendor/bin/fpseek:$(TARGET_COPY_OUT_VENDOR)/bin/fpseek \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd_gxfp3:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd_gxfp3 \
-    vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/asus/zenfone3/proprietary/vendor/etc/Tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa98xx.cnt \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/fpseekta.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpseekta.b00 \
@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/gxfpa.b05 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/gxfpa.b06 \
     vendor/asus/zenfone3/proprietary/vendor/etc/firmware/gxfpa.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/gxfpa.mdt \
-    vendor/asus/zenfone3/proprietary/vendor/etc/init.asus.thermal_conf.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.asus.thermal_conf.sh \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/asus/zenfone3/proprietary/vendor/etc/style.cng:$(TARGET_COPY_OUT_VENDOR)/etc/style.cng \
@@ -672,6 +671,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
@@ -830,6 +830,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
@@ -872,7 +873,6 @@ PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
     libsdm-disp-vndapis \
-    libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
     CNEService \
