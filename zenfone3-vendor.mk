@@ -21,12 +21,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_cal:system/bin/RGBSensor_cal \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_get_golden:system/bin/RGBSensor_get_golden \
     vendor/asus/zenfone3/proprietary/bin/RGBSensor_value:system/bin/RGBSensor_value \
+    vendor/asus/zenfone3/proprietary/vendor/bin/SpeakerCalibrationTest:$(TARGET_COPY_OUT_VENDOR)/bin/SpeakerCalibrationTest \
     vendor/asus/zenfone3/proprietary/bin/ditbsp:system/bin/ditbsp \
     vendor/asus/zenfone3/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/zenfone3/proprietary/lib/libAsusRGBSensorHAL.so:system/lib/libAsusRGBSensorHAL.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/zenfone3/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/zenfone3/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/vendor/bin/BackupCalibrationData:$(TARGET_COPY_OUT_VENDOR)/bin/BackupCalibrationData \
     vendor/asus/zenfone3/proprietary/vendor/bin/CameraModule:$(TARGET_COPY_OUT_VENDOR)/bin/CameraModule \
     vendor/asus/zenfone3/proprietary/vendor/bin/CameraOTP:$(TARGET_COPY_OUT_VENDOR)/bin/CameraOTP \
@@ -39,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/Camera_OIS_Write:$(TARGET_COPY_OUT_VENDOR)/bin/Camera_OIS_Write \
     vendor/asus/zenfone3/proprietary/vendor/bin/Camera_Unique_ID:$(TARGET_COPY_OUT_VENDOR)/bin/Camera_Unique_ID \
     vendor/asus/zenfone3/proprietary/vendor/bin/DIT_LaserOn:$(TARGET_COPY_OUT_VENDOR)/bin/DIT_LaserOn \
-    vendor/asus/zenfone3/proprietary/vendor/bin/SpeakerCalibrationTest:$(TARGET_COPY_OUT_VENDOR)/bin/SpeakerCalibrationTest \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash:$(TARGET_COPY_OUT_VENDOR)/bin/camera_flash \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash2:$(TARGET_COPY_OUT_VENDOR)/bin/camera_flash2 \
     vendor/asus/zenfone3/proprietary/vendor/bin/camera_flash3:$(TARGET_COPY_OUT_VENDOR)/bin/camera_flash3 \
@@ -348,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libsphere3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsphere3.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
@@ -371,8 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpnav_gxfp3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav_gxfp3.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libfpservice_gxfp3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice_gxfp3.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa98xx.so
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libfpservice_gxfp3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice_gxfp3.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
