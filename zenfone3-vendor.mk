@@ -390,7 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/asus/zenfone3/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/asus/zenfone3/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/asus/zenfone3/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/zenfone3/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/asus/zenfone3/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/asus/zenfone3/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -401,6 +400,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/asus/zenfone3/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/asus/zenfone3/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/asus/zenfone3/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/asus/zenfone3/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/asus/zenfone3/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -425,7 +426,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
-    vendor/asus/zenfone3/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
     vendor/asus/zenfone3/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
@@ -441,13 +441,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/asus/zenfone3/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/asus/zenfone3/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/asus/zenfone3/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/asus/zenfone3/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
-    vendor/asus/zenfone3/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/asus/zenfone3/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -455,11 +455,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/asus/zenfone3/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/asus/zenfone3/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
-    vendor/asus/zenfone3/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
-    vendor/asus/zenfone3/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/asus/zenfone3/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/asus/zenfone3/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
+    vendor/asus/zenfone3/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/zenfone3/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
@@ -576,7 +575,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
@@ -830,7 +828,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
@@ -929,7 +926,8 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
-    TimeService
+    TimeService \
+    WfdCommon
 endif
 
 -include vendor/extra/devices.mk
